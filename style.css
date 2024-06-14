@@ -159,10 +159,10 @@ section {
 /* PROFILE SECTION */
 
 #profile {
-  display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  min-width: 60%;
+  margin-bottom: 15rem;
 }
 
 .section__pic-container {
@@ -262,12 +262,15 @@ section {
 
 #about {
   position: relative;
+  display: flex;
+  margin-bottom: 10rem;
 }
 
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  display: flex;
 }
 
 .about-containers-new {
@@ -279,11 +282,8 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  padding: 10px;
 }
-
-.about-details-containernew {
-    justify-content: center;
-  }
 
 .about-containers,
 .about-details-container {
@@ -320,8 +320,9 @@ section {
   }
 
 .section-container {
+  display: flex;
   gap: 4rem;
-  height: 80%;
+  padding: 10px;
 }
 
 .section__pic-container {
@@ -334,6 +335,8 @@ section {
 
 #experience {
   position: relative;
+  padding: 20px;
+  margin-bottom: 10rem;
 }
 
 .experience-sub-title {
@@ -373,6 +376,7 @@ article .icon {
 
 #projects {
   position: relative;
+  padding: 20px;
 }
 
 .color-container {
@@ -403,6 +407,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  padding: 20px;
 }
 
 .contact-info-upper-container {
@@ -449,4 +454,19 @@ footer p {
 
 .experience-new-container {
     padding-left: 10px;
+}
+
+.logo {
+  padding-left: 20px;
+  min-width: 50%;
+}
+
+.nav-links {
+  min-width: 50%;
+}
+
+.profile-container { 
+  display: flex;
+  min-width: 60%;
+  padding: 10px;
 }

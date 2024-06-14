@@ -12,7 +12,7 @@
 <body>
     <nav id="desktop-nav">
         <div class="logo">Atharva Jitenda Kulkarni</div>
-        <div>
+        <div class="nav-links">
             <ul class="nav-links">
                 <li><a href="#about">Experience</a></li>
                 <li><a href="#experience">Skills</a></li>
@@ -21,38 +21,46 @@
             </ul>
         </div>
     </nav>
-    <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" />
-          </div>
-        <div class="section__text">
-            <h1 class="title">Tech Enthusiast. Problem Solver.</h1>
-            <p>Hi, I am a passionate and skilled software engineer currently pursuing a Master of Science in Computer
-                Science at the University of Texas at Dallas. With a solid foundation in Information Technology and
-                hands-on experience in diverse programming languages and technologies, I am excited about both frontend
-                as well as backend development. My professional journey includes significant contributions at ACI
-                Worldwide and Oriole Labs, where I implemented advanced payment solutions, optimized deployment
-                strategies, and enhanced API development. I am adept at working in Agile environments, ensuring seamless
-                integration and exceptional functionality. My expertise spans Java, Python, JavaScript, SQL, Spring
-                Boot, Asp.Net, and various other frameworks and tools. As I actively seek new opportunities, I am eager
-                to bring my dedication to excellence and my enthusiasm for tackling complex challenges to a
-                forward-thinking organization.</p>
-            <p>Feel free to get in touch if you're interested in collaborating on open-source projects, or simply having
-                a friendly conversation about tech.</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/Atharva Kulkarni - Resume - SW.pdf')">
-                    Download CV
-                </button>
+    <div id="profile">
+        <div class="profile-container">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic.png" />
             </div>
-            <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
-                    onclick="window.open('https://www.linkedin.com/in/atharva-kulkarni22/', '_blank')" />
-                <img src="./assets/github.png" alt="My Github profile" class="icon"
-                    onclick="window.open('https://github.com/atharvakulkarni22', '_blank')" />
+            <div class="section__text">
+                <h1 class="title">Tech Enthusiast. Problem Solver.</h1>
+                <p>Hi, I am a passionate and skilled software engineer currently pursuing a Master of Science in
+                    Computer
+                    Science at the University of Texas at Dallas. With a solid foundation in Information Technology and
+                    hands-on experience in diverse programming languages and technologies, I am excited about both
+                    frontend
+                    as well as backend development. My professional journey includes significant contributions at ACI
+                    Worldwide and Oriole Labs, where I implemented advanced payment solutions, optimized deployment
+                    strategies, and enhanced API development. I am adept at working in Agile environments, ensuring
+                    seamless
+                    integration and exceptional functionality. My expertise spans Java, Python, JavaScript, SQL, Spring
+                    Boot, Asp.Net, and various other frameworks and tools. As I actively seek new opportunities, I am
+                    eager
+                    to bring my dedication to excellence and my enthusiasm for tackling complex challenges to a
+                    forward-thinking organization.</p>
+                <p>Feel free to get in touch if you're interested in collaborating on open-source projects, or simply
+                    having
+                    a friendly conversation about tech.</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2"
+                        onclick="window.open('./assets/Atharva Kulkarni - Resume - SW.pdf')">
+                        Download CV
+                    </button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                        onclick="window.open('https://www.linkedin.com/in/atharva-kulkarni22/', '_blank')" />
+                    <img src="./assets/github.png" alt="My Github profile" class="icon"
+                        onclick="window.open('https://github.com/atharvakulkarni22', '_blank')" />
+                </div>
             </div>
         </div>
-    </section>
-    <section id="about">
+    </div>
+    <div id="about">
         <div class="section-container">
             <div class="about-details-container">
                 <h1 class="title">Professional Experience</h1>
@@ -88,25 +96,28 @@
                     <h2>Oriole Labs Pvt. Ltd.</h2>
                     <h3>Sofware Engineer Inter</h3>
                     <p class="experience-new-container">
-                        <ul>
-                            <li> Collaborated closely with clients to develop and implement solutions in C# Asp.Net, JavaScript, and Microsoft Server SQL.
-                            </li>
-                            <li> Proposed a three-layered architecture (Model Layer, Business Logic Layer, and Data Layer) for enhanced security, with
-                                approximately 70% of core functionality handled in the database.
-                            </li>
-                            <li> Revamped cross-platform application deployment strategy using Bootstrap for desktops, cellphones, and tablets, resulting
-                                in increased user accessibility and engagement across all devices by 50%.
-                            </li>
-                            <li> Crafted a robust user management system with modules programmed using HTML, CSS, JavaScript, and jQuery.
-                            </li>
-                        </ul>
-                        </p>
+                    <ul>
+                        <li> Collaborated closely with clients to develop and implement solutions in C# Asp.Net,
+                            JavaScript, and Microsoft Server SQL.
+                        </li>
+                        <li> Proposed a three-layered architecture (Model Layer, Business Logic Layer, and Data Layer)
+                            for enhanced security, with
+                            approximately 70% of core functionality handled in the database.
+                        </li>
+                        <li> Revamped cross-platform application deployment strategy using Bootstrap for desktops,
+                            cellphones, and tablets, resulting
+                            in increased user accessibility and engagement across all devices by 50%.
+                        </li>
+                        <li> Crafted a robust user management system with modules programmed using HTML, CSS,
+                            JavaScript, and jQuery.
+                        </li>
+                    </ul>
+                    </p>
                 </div>
             </div>
         </div>
-        </div>
-    </section>
-    <section id="experience">
+    </div>
+    <div id="experience">
         <h1 class="title">Skills</h1>
         <div class="experience-details-container">
             <div class="about-containers">
@@ -266,8 +277,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section id="projects">
+    </div>
+    <div id="projects">
         <h1 class="title">Projects</h1>
         <div class="experience-details-container">
             <div class="about-containers">
@@ -275,11 +286,15 @@
                     <h2 class="experience-sub-title project-title">Grocery Store Web App</h2>
                     <div class="project-text">
                         <p>
-                            The Grocery Application is a user-friendly platform designed to simplify and enhance the grocery shopping experience. With an intuitive interface and a robust set of features, this application aims to streamline the process of creating, managing, and completing your grocery lists.
+                            The Grocery Application is a user-friendly platform designed to simplify and enhance the
+                            grocery shopping experience. With an intuitive interface and a robust set of features, this
+                            application aims to streamline the process of creating, managing, and completing your
+                            grocery lists.
                         </p>
                     </div>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/atharvakulkarni22/Grocery_Application'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/atharvakulkarni22/Grocery_Application'">
                             Github
                         </button>
                     </div>
@@ -288,11 +303,14 @@
                     <h2 class="experience-sub-title project-title">Automated prerequisite Waiver</h2>
                     <div class="project-text">
                         <p>
-                            A prototype of an automated prerequisite waiver system that will determine whether one’s previous undergrad coursework is sufficient to opt out of taking corresponding prerequisite classes.
+                            A prototype of an automated prerequisite waiver system that will determine whether one’s
+                            previous undergrad coursework is sufficient to opt out of taking corresponding prerequisite
+                            classes.
                         </p>
                     </div>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/atharvakulkarni22/Graduate_Prerequisite_Waiver'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/atharvakulkarni22/Graduate_Prerequisite_Waiver'">
                             Github
                         </button>
                     </div>
@@ -301,19 +319,24 @@
                     <h2 class="experience-sub-title project-title">Traffic Sign CLassifier</h2>
                     <div class="project-text">
                         <p>
-                            Traffic Sign Classifier using YOLO object Detection and CNN classifier. This traffic sign classifier classifies the traffic sign images in two stages. It uses YOLOv3 for object detection and classifies the traffic signs in 4 classes, prohibitory, mandatory, danger and other. The image is croped, prosessed and is given as input to a 26 layered CNN model. The CNN classifies the image into 43 classes.
+                            Traffic Sign Classifier using YOLO object Detection and CNN classifier. This traffic sign
+                            classifier classifies the traffic sign images in two stages. It uses YOLOv3 for object
+                            detection and classifies the traffic signs in 4 classes, prohibitory, mandatory, danger and
+                            other. The image is croped, prosessed and is given as input to a 26 layered CNN model. The
+                            CNN classifies the image into 43 classes.
                         </p>
                     </div>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/atharvakulkarni22/Two_Stage_Traffic_Sign_Classifier'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/atharvakulkarni22/Two_Stage_Traffic_Sign_Classifier'">
                             Github
                         </button>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="contact">
+    </div>
+    <div id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
@@ -330,7 +353,7 @@
                 <p>+1(945) 257-4028</p>
             </div>
         </div>
-    </section>
+    </div>
     <footer>
         <nav>
             <div class="nav-links-container">
