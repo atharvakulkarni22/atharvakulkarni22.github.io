@@ -3,7 +3,7 @@ export default function Navbar() {
       <nav className="fixed w-full bg-gray-800 shadow-md p-4">
         <div className="container mx-auto flex justify-between items-center">
           <a href="#top"><h1 className="text-2xl font-bold text-white">Atharva Kulkarni</h1></a>
-          <ul className="hidden md:flex space-x-6 justify-start">
+          <ul className="hidden md:flex space-x-6 justify-center">
             {["Home", "Skills", "Projects", "Contact"].map((item) => (
               <li key={item}>
                 <a href={`#${item.toLowerCase()}`} className="text-white hover:text-gray-400">

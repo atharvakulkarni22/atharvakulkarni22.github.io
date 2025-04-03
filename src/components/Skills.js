@@ -1,4 +1,4 @@
-export default function About() {
+export default function Skills() {
   const skills = [
     { title: "Programming Languages", description: "Java, JavaScript, C#, Python, HTML/CSS, SQL" },
     { title: "Frameworks", description: "Spring Boot, React, Asp.Net, TailwindCSS, JPA, Junit, Mockito, TestNG, Kafka, Apache Spark"},
@@ -8,9 +8,9 @@ export default function About() {
 
 
     return (
-      <section id="about" className="py-20 text-center">
+      <section id="skills" className="py-20 text-center">
         <h2 className="text-4xl font-bold">Skills</h2>
-        <div className="mt-6 grid grid-cols-1 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-4 gap-6 justify-center max-w-4xl mx-auto px-4">
           {skills.map((skill) => (
             <div key={skill.title} className="p-6 bg-gray-800 rounded-lg shadow-md">
               <h3 className="text-2xl">{skill.title}</h3>
